@@ -12,6 +12,7 @@
     <PackageId>SpeedTest.Net</PackageId>
     <PackageVersion>1.6.0</PackageVersion>
     <PackageProjectUrl>https://github.com/JoyMoe/SpeedTest.Net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/safervpn/SpeedTest.Net</RepositoryUrl>
     <PackageLicense>LICENSE</PackageLicense>
     <Title>SpeedTest.Net</Title>
     <LangVersion>8</LangVersion>
