@@ -23,6 +23,6 @@ jobs:
     - name: Pack
       run: dotnet pack -c Release
     - name: Publish Nuget to GitHub registry
-      run: dotnet nuget push SpeedTest.Net/bin/Release/*.nupkg -k ${GITHUB_TOKEN} -s https://nuget.pkg.github.com/safervpn/index.json --skip-duplicate 
+      run: dotnet nuget push SpeedTest/bin/Release/*.nupkg -k ${GITHUB_TOKEN} -s https://nuget.pkg.github.com/safervpn/index.json --skip-duplicate 
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
